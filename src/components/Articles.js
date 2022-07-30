@@ -19,7 +19,7 @@ class Articles extends Component {
                                         &nbsp;
                                         <span className="iconify" data-icon="emojione:blue-circle" data-inline="false"></span> &nbsp;{" "}
                                     </div>
-                                    <div className='card-body font-trebuchet text-justify ml-3 mr-3'><br /><span className='wave'> Coming Soon... </span><br /> Come check out my articles on <a href="/articles">Medium</a> and <a href="/articles">Github</a>.</div>
+                                    <div className='card-body font-trebuchet text-justify ml-3 mr-3'><br /><span className='wave'> Coming Soon... </span><br /> Come check out my articles on <a href="/">Medium</a> and <a href="/">Github</a>.</div>
                                 </div>
                             </div>
                         </div>
