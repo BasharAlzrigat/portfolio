@@ -33,11 +33,23 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      // background-color: #494949;
       h1 {
          color: white;
       }
    }
+   #background-video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+     }
+   
 
    #about {
       background-color: #7f7f7f;

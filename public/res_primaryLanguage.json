@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Bashar zingat. i'm 30 years old civil engineer, decide lately to shift my career to full stack web developer, so currently studying in ASAC one of the code fellows partners.",
+      "description": "👋 I'm Bashar Alzrigat. i'm 30 years old civil engineer, decide lately to shift my career to full stack web developer, so currently studying in ASAC one of the code fellows partners.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -15,9 +15,9 @@
         "startDate": "2022",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. A restaurant template built by html and pure css",
         "images": [
-          "images/portfolio/FatGuys/p1.PNG",
-          "images/portfolio/FatGuys/p2.PNG",
-          "images/portfolio/FatGuys/p3.PNG"
+          "images/portfolio/fatguys/p1.PNG",
+          "images/portfolio/fatguys/p2.PNG",
+          "images/portfolio/fatguys/p3.PNG"
         ],
         "url": "https://github.com/BasharAlzrigat/my-restaurant",
         "technologies": [
@@ -36,8 +36,8 @@
         "startDate": "2022",
         "description": "Personal project for notes. to memorize my short and long term tasks, i worked and finished this project during the prep-JS course in ASAC.",
         "images": [
-          "images/portfolio/TODO/p1.PNG",
-          "images/portfolio/TODO/p2.PNG"
+          "images/portfolio/todo/p1.PNG",
+          "images/portfolio/todo/p2.PNG"
         ],
         "url": "https://github.com/BasharAlzrigat/todo-project",
         "technologies": [

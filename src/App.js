@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
+import Articles from "./components/Articles";
 
 class App extends Component {
 
@@ -87,6 +88,11 @@ class App extends Component {
             element={<Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
+            />}>
+          </Route>
+          <Route 
+            path="/Articles" 
+            element={<Articles
             />}>
           </Route>
           <Route 

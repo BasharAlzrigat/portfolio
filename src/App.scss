@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	// background-color: #0CF25D;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -47,17 +47,59 @@ header {
 	padding-bottom: 0;
 }
 
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+
 header .nav {
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+    background-color: #03415961;
+    display: flex;
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    align-items: center;
 }
 
 .github-corner:hover .octo-arm {
-	animation:octocat-wave 560ms ease-in-out
+	animation: octocat-wave 560ms ease-in-out
 }
 
-@keyframes octocat-wave {0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}
 
 .language-icon {
 	font-size: 50px;
@@ -119,6 +161,20 @@ header h1 {
 	display: none;
 }
 
+#articles {
+	background: #fff;
+	overflow: hidden;
+}
+
+#articles h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
 #about {
 	background: #fff;
 	overflow: hidden;
@@ -139,6 +195,7 @@ header h1 {
 }
 
 .foto div {
+	width: 94.5%;
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
@@ -231,7 +288,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #038C3E;
 }
 
 .experience-icon {
@@ -263,6 +320,7 @@ header h1 {
 }
 
 .vertical-timeline-element-date {
+	color: #fff;
 	padding: 0 !important;
 	margin: 0 !important;
 }
@@ -353,7 +411,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #025951;
 	padding-bottom: 5%;
 }
 
@@ -383,13 +441,14 @@ header h1 {
 	.portfolio .closeButtonResponsive {
 		display: block;
 	}
+
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
 	}
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #034159;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +473,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #034159;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -432,6 +491,10 @@ footer a:visited {
 footer a:hover,
 footer a:focus {
 	color: #fff;
+}
+
+footer .container .row{
+	flex-direction: column-reverse !important;
 }
 
 .social-links {
