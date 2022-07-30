@@ -57,7 +57,7 @@ class Header extends Component {
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <LinkContainer to="/Articles">
+            <LinkContainer to="/articles">
               <Nav.Link href="/">Articles</Nav.Link>
             </LinkContainer>
           </Nav.Item>

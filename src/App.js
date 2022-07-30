@@ -91,7 +91,7 @@ class App extends Component {
             />}>
           </Route>
           <Route 
-            path="/Articles" 
+            path="/articles" 
             element={<Articles
             />}>
           </Route>
