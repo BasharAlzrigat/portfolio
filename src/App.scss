@@ -46,6 +46,10 @@ header {
 	padding-top: 150px;
 	padding-bottom: 0;
 }
+.Mode-Switcher {
+    position: relative;
+    top: 3px;
+}
 
 #background-video {
 	width: 100vw;
@@ -61,7 +65,8 @@ header {
 
 
 header .nav {
-    background-color: #03415961;
+	border-radius: 20px;
+    background-color: rgb(3 65 89 / 50%);
     display: flex;
     font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
@@ -173,6 +178,11 @@ header h1 {
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+}
+#articles .card-body{
+	height: auto;
+    font-size: 132%;
+    line-height: 200%;
 }
 
 #about {

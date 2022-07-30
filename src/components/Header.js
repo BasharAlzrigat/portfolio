@@ -66,7 +66,7 @@ class Header extends Component {
               <Nav.Link eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="Mode-Switcher">
             <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
